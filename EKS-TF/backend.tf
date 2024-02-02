@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "somana-terraform-state-backet-test1"
+        bucket = "somana-terraform-state-backet-test"
         region = "us-east-1"
         key    = "network/terraform.tfstate"
         encrypt = "true"
