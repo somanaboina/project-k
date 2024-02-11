@@ -17,7 +17,7 @@ spec:
         app: tetris
     spec:
       containers:
-      - image: somanaboina/tetrisv1:19
+      - image: somanaboina/tetrisv2:19
         name: tetrisv1
         ports:
         - containerPort: 3000
